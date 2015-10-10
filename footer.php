@@ -5,7 +5,7 @@
 </div><!--to close wrap -->
 <div id="footer" style="border-top:1px solid #e0e0e0">
 <div class="container">
-<center><p class="muted credit"><font color="#f5f5f5" > BMW | Sid </font>Copyrights &copy; OEP @ IIITD&amp;M Kancheepuram 2014<font color="#f5f5f5" > RK | SS | KD </font></p></center>
+<center><p class="muted credit"><font color="#f5f5f5" > Shubham </font>Copyrights &copy; Designer Club @ IIITD&amp;M Kancheepuram 2015<font color="#f5f5f5" > RK | SS | KD </font></p></center>
 </div>
 </div>
 
