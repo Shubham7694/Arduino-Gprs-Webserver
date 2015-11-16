@@ -8,6 +8,6 @@ Establish a connection to MySQL database.
 *************************************************
 -->
 */
-$con=mysql_connect('localhost','root','') or die("Could not connect".mysql_error());
-mysql_select_db("electricity");
+$con=mysqli_connect('localhost','root','',"electricity") or die("Could not connect".mysql_error());
+//mysqli_select_db("electricity");
 ?>

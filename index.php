@@ -15,9 +15,9 @@ require("header.php");
 /////////////////////////////when logout is clicked///////////////////////////////////////////////////
 if($_POST['logout'])
   {
-    session_destroy();
+    
     echo '<script>window.location="index.php";</script>';   //////Reddirect the use to homepage
-
+  	session_destroy();
   }
 /////////////////////////////when logout is clicked///////////////////////////////////////////////////
 
@@ -55,13 +55,9 @@ if(isset($_POST['login']))
 <?php
 
 /////////////////form to fill the login data --end///////////////////////
-if(!isset($_SESSION['rollnumber']) && !isset($_SESSION['faculty_id']) && isset($_POST['login']))
+if(! isset($_POST['login']))
  {
- 	if($multilogin=='1')
- 		{
- 			echo '<div class="alert fade in" ><button type="button" class="close" data-dismiss="alert" >&times;</button><strong>Sorry!!! </strong>Multiple Login Not Allowed</div>';
-		}
-		else
+ 	
 		{
 			echo '<div class="alert fade in" ><button type="button" class="close" data-dismiss="alert" >&times;</button><strong>Sorry!!! </strong>Invalid username or password!</div>';
  		}
